@@ -1,0 +1,101 @@
+question,relevant_chunk_ids,question_type,expect_abstain,source
+What is Ballon dOr known for in football?,"['fixed_Ballon_dOr_0', 'recursive_Ballon_dOr_0', 'semantic_Ballon_dOr_0']",person,False,auto
+Give a brief overview of Atletico Madrid in football.,"['fixed_Atletico_Madrid_0', 'recursive_Atletico_Madrid_0', 'semantic_Atletico_Madrid_0']",general,False,auto
+Which club signed Jude Bellingham in summer 2027?,[],unanswerable,True,manual
+How many goals did Ronaldo (the Brazilian) score across all World Cup tournaments?,[],person,False,gold
+England national football team represents which nation?,"['fixed_England_national_football_team_0', 'recursive_England_national_football_team_0', 'semantic_England_national_football_team_0']",country-team,False,auto
+What is Chelsea FC known for in club football?,"['fixed_Chelsea_FC_0', 'recursive_Chelsea_FC_0', 'semantic_Chelsea_FC_0']",club,False,auto
+How many UEFA Champions League titles has Real Madrid won?,[],club,False,gold
+What type of tournament is FA Cup?,"['fixed_FA_Cup_0', 'recursive_FA_Cup_0', 'semantic_FA_Cup_0']",competition,False,auto
+Which club has more Champions League titles — AC Milan or Liverpool?,[],club,False,gold
+Give a brief overview of FIFA in football.,"['fixed_FIFA_0', 'recursive_FIFA_0', 'semantic_FIFA_0']",general,False,auto
+Give a brief football profile of FC Barcelona.,"['fixed_FC_Barcelona_0', 'recursive_FC_Barcelona_0', 'semantic_FC_Barcelona_0']",person,False,auto
+Which rule change did VAR introduce to how offside decisions are made?,[],general,False,gold
+Give a brief overview of Copa del Rey in football.,"['fixed_Copa_del_Rey_0', 'recursive_Copa_del_Rey_0', 'semantic_Copa_del_Rey_0']",general,False,auto
+What is Cristiano Ronaldo known for in football?,"['fixed_Cristiano_Ronaldo_0', 'recursive_Cristiano_Ronaldo_0', 'semantic_Cristiano_Ronaldo_0']",person,False,auto
+What is FC Barcelona known for in football?,"['fixed_FC_Barcelona_0', 'recursive_FC_Barcelona_0', 'semantic_FC_Barcelona_0']",person,False,auto
+"In football, how would you describe Borussia Dortmund?","['fixed_Borussia_Dortmund_0', 'recursive_Borussia_Dortmund_0', 'semantic_Borussia_Dortmund_0']",club,False,auto
+What type of tournament is Bundesliga?,"['fixed_Bundesliga_0', 'recursive_Bundesliga_0', 'semantic_Bundesliga_0']",competition,False,auto
+What was the exact xG of the 2024 Champions League final?,[],unanswerable,True,manual
+What is FC Porto known for in club football?,"['fixed_FC_Porto_0', 'recursive_FC_Porto_0', 'semantic_FC_Porto_0']",club,False,auto
+"In international football, what country is Argentina national football team associated with?","['fixed_Argentina_national_football_team_0', 'recursive_Argentina_national_football_team_0', 'semantic_Argentina_national_football_team_0']",country-team,False,auto
+How is 2022 FIFA World Cup categorized in football?,"['fixed_2022_FIFA_World_Cup_0', 'recursive_2022_FIFA_World_Cup_0', 'semantic_2022_FIFA_World_Cup_0']",competition,False,auto
+What formation did Spain predominantly use when winning UEFA Euro 2008?,[],country-team,False,gold
+"In football, how would you describe AC Milan?","['fixed_AC_Milan_0', 'recursive_AC_Milan_0', 'semantic_AC_Milan_0']",club,False,auto
+Who was the referee for the 2029 Copa Libertadores final?,[],unanswerable,True,manual
+How is FIFA World Cup categorized in football?,"['fixed_FIFA_World_Cup_0', 'recursive_FIFA_World_Cup_0', 'semantic_FIFA_World_Cup_0']",competition,False,auto
+How is Bundesliga categorized in football?,"['fixed_Bundesliga_0', 'recursive_Bundesliga_0', 'semantic_Bundesliga_0']",competition,False,auto
+"In international football, what country is Germany national football team associated with?","['fixed_Germany_national_football_team_0', 'recursive_Germany_national_football_team_0', 'semantic_Germany_national_football_team_0']",country-team,False,auto
+How is 2014 FIFA World Cup categorized in football?,"['fixed_2014_FIFA_World_Cup_0', 'recursive_2014_FIFA_World_Cup_0', 'semantic_2014_FIFA_World_Cup_0']",competition,False,auto
+Who scored the fastest goal in the FIFA World Cup 2030?,[],unanswerable,True,manual
+What is AFC Ajax known for in club football?,"['fixed_AFC_Ajax_0', 'recursive_AFC_Ajax_0', 'semantic_AFC_Ajax_0']",club,False,auto
+Which club did Zinedine Zidane win the Champions League with as a player?,[],person,False,gold
+Brazil national football team represents which nation?,"['fixed_Brazil_national_football_team_0', 'recursive_Brazil_national_football_team_0', 'semantic_Brazil_national_football_team_0']",country-team,False,auto
+Croatia national football team represents which nation?,"['fixed_Croatia_national_football_team_0', 'recursive_Croatia_national_football_team_0', 'semantic_Croatia_national_football_team_0']",country-team,False,auto
+How is EFL Cup categorized in football?,"['fixed_EFL_Cup_0', 'recursive_EFL_Cup_0', 'semantic_EFL_Cup_0']",competition,False,auto
+What is FC Bayern Munich known for in club football?,"['fixed_FC_Bayern_Munich_0', 'recursive_FC_Bayern_Munich_0', 'semantic_FC_Bayern_Munich_0']",club,False,auto
+What is Borussia Dortmund known for in club football?,"['fixed_Borussia_Dortmund_0', 'recursive_Borussia_Dortmund_0', 'semantic_Borussia_Dortmund_0']",club,False,auto
+Which footballer announced retirement in January 2027?,[],unanswerable,True,manual
+Give a brief overview of Copa America in football.,"['fixed_Copa_America_0', 'recursive_Copa_America_0', 'semantic_Copa_America_0']",general,False,auto
+Who won the UEFA Euro 2024 Golden Boot?,[],unanswerable,True,manual
+What distinguishes the Copa Libertadores from the Copa America?,[],competition,False,gold
+How is AFC Champions League Elite categorized in football?,"['fixed_AFC_Champions_League_Elite_0', 'recursive_AFC_Champions_League_Elite_0', 'semantic_AFC_Champions_League_Elite_0']",competition,False,auto
+What is the format of the UEFA Conference League knockout rounds?,[],competition,False,gold
+What is Arsenal FC known for in club football?,"['fixed_Arsenal_FC_0', 'recursive_Arsenal_FC_0', 'semantic_Arsenal_FC_0']",club,False,auto
+"In football, how would you describe Arsenal FC?","['fixed_Arsenal_FC_0', 'recursive_Arsenal_FC_0', 'semantic_Arsenal_FC_0']",club,False,auto
+How many World Cup goals did Pele score compared to Diego Maradona?,[],person,False,gold
+What type of tournament is Eredivisie?,"['fixed_Eredivisie_0', 'recursive_Eredivisie_0', 'semantic_Eredivisie_0']",competition,False,auto
+Give a brief football profile of Diego Maradona.,"['fixed_Diego_Maradona_0', 'recursive_Diego_Maradona_0', 'semantic_Diego_Maradona_0']",person,False,auto
+What is Diego Maradona known for in football?,"['fixed_Diego_Maradona_0', 'recursive_Diego_Maradona_0', 'semantic_Diego_Maradona_0']",person,False,auto
+What was the score in the 1970 FIFA World Cup final between Brazil and Italy?,[],competition,False,gold
+"In football, how would you describe AFC Ajax?","['fixed_AFC_Ajax_0', 'recursive_AFC_Ajax_0', 'semantic_AFC_Ajax_0']",club,False,auto
+What VAR decision was controversial in the 2026 UCL final?,[],unanswerable,True,manual
+"In international football, what country is Brazil national football team associated with?","['fixed_Brazil_national_football_team_0', 'recursive_Brazil_national_football_team_0', 'semantic_Brazil_national_football_team_0']",country-team,False,auto
+Who scored the winning goal in the 2022 FIFA World Cup final penalty shootout?,[],person,False,gold
+"In football, how would you describe Chelsea FC?","['fixed_Chelsea_FC_0', 'recursive_Chelsea_FC_0', 'semantic_Chelsea_FC_0']",club,False,auto
+Did Messi or Ronaldo score more goals in a single calendar year?,[],person,False,gold
+Argentina national football team represents which nation?,"['fixed_Argentina_national_football_team_0', 'recursive_Argentina_national_football_team_0', 'semantic_Argentina_national_football_team_0']",country-team,False,auto
+"In international football, what country is Croatia national football team associated with?","['fixed_Croatia_national_football_team_0', 'recursive_Croatia_national_football_team_0', 'semantic_Croatia_national_football_team_0']",country-team,False,auto
+What is Erling Haaland known for in football?,"['fixed_Erling_Haaland_0', 'recursive_Erling_Haaland_0', 'semantic_Erling_Haaland_0']",person,False,auto
+How many Serie A titles has Juventus won in total?,[],club,False,gold
+What type of tournament is EFL Cup?,"['fixed_EFL_Cup_0', 'recursive_EFL_Cup_0', 'semantic_EFL_Cup_0']",competition,False,auto
+Which stadium hosted the first ever FIFA World Cup match in 1930?,[],competition,False,gold
+Which English club has won the Premier League the most times?,[],club,False,gold
+Who is the all-time top scorer in UEFA Champions League history?,[],person,False,gold
+How is Eredivisie categorized in football?,"['fixed_Eredivisie_0', 'recursive_Eredivisie_0', 'semantic_Eredivisie_0']",competition,False,auto
+France national football team represents which nation?,"['fixed_France_national_football_team_0', 'recursive_France_national_football_team_0', 'semantic_France_national_football_team_0']",country-team,False,auto
+Which club signed Erling Haaland before he moved to Manchester City?,[],person,False,gold
+What type of tournament is FIFA World Cup?,"['fixed_FIFA_World_Cup_0', 'recursive_FIFA_World_Cup_0', 'semantic_FIFA_World_Cup_0']",competition,False,auto
+Give a brief football profile of Ballon dOr.,"['fixed_Ballon_dOr_0', 'recursive_Ballon_dOr_0', 'semantic_Ballon_dOr_0']",person,False,auto
+Who is the top scorer of the Saudi Pro League 2025-26 season?,[],unanswerable,True,manual
+When was the offside rule last significantly amended in association football?,[],general,False,gold
+Which country has won the most FIFA World Cup titles in history?,[],competition,False,gold
+Which city hosted the 2028 FIFA World Cup opening match?,[],unanswerable,True,manual
+Give a brief football profile of Cristiano Ronaldo.,"['fixed_Cristiano_Ronaldo_0', 'recursive_Cristiano_Ronaldo_0', 'semantic_Cristiano_Ronaldo_0']",person,False,auto
+Who won the Ballon d'Or in 2026?,[],unanswerable,True,manual
+What type of tournament is Copa Libertadores?,"['fixed_Copa_Libertadores_0', 'recursive_Copa_Libertadores_0', 'semantic_Copa_Libertadores_0']",competition,False,auto
+What is the transfer fee for Kylian Mbappe in 2026?,[],unanswerable,True,manual
+What type of tournament is 2014 FIFA World Cup?,"['fixed_2014_FIFA_World_Cup_0', 'recursive_2014_FIFA_World_Cup_0', 'semantic_2014_FIFA_World_Cup_0']",competition,False,auto
+How is FA Cup categorized in football?,"['fixed_FA_Cup_0', 'recursive_FA_Cup_0', 'semantic_FA_Cup_0']",competition,False,auto
+Germany national football team represents which nation?,"['fixed_Germany_national_football_team_0', 'recursive_Germany_national_football_team_0', 'semantic_Germany_national_football_team_0']",country-team,False,auto
+"In football, how would you describe FC Porto?","['fixed_FC_Porto_0', 'recursive_FC_Porto_0', 'semantic_FC_Porto_0']",club,False,auto
+"In international football, what country is England national football team associated with?","['fixed_England_national_football_team_0', 'recursive_England_national_football_team_0', 'semantic_England_national_football_team_0']",country-team,False,auto
+What type of tournament is 2022 FIFA World Cup?,"['fixed_2022_FIFA_World_Cup_0', 'recursive_2022_FIFA_World_Cup_0', 'semantic_2022_FIFA_World_Cup_0']",competition,False,auto
+What type of tournament is 2018 FIFA World Cup?,"['fixed_2018_FIFA_World_Cup_0', 'recursive_2018_FIFA_World_Cup_0', 'semantic_2018_FIFA_World_Cup_0']",competition,False,auto
+Which team won the 2026 AFC Champions League final?,[],unanswerable,True,manual
+What was Pep Guardiola's win rate across all competitions in 2025?,[],unanswerable,True,manual
+What year did Argentina win the Copa America for the very first time?,[],country-team,False,gold
+How is Copa Libertadores categorized in football?,"['fixed_Copa_Libertadores_0', 'recursive_Copa_Libertadores_0', 'semantic_Copa_Libertadores_0']",competition,False,auto
+"In football, how would you describe FC Bayern Munich?","['fixed_FC_Bayern_Munich_0', 'recursive_FC_Bayern_Munich_0', 'semantic_FC_Bayern_Munich_0']",club,False,auto
+Which Bundesliga club has won the most consecutive German league titles?,[],club,False,gold
+Give a brief football profile of Erling Haaland.,"['fixed_Erling_Haaland_0', 'recursive_Erling_Haaland_0', 'semantic_Erling_Haaland_0']",person,False,auto
+What was Lionel Messi's salary at Inter Miami in 2025?,[],unanswerable,True,manual
+What is the prize money difference between the Premier League and La Liga?,[],competition,True,gold
+Which national team knocked Germany out of the 2018 FIFA World Cup group stage?,[],country-team,False,gold
+How is 2018 FIFA World Cup categorized in football?,"['fixed_2018_FIFA_World_Cup_0', 'recursive_2018_FIFA_World_Cup_0', 'semantic_2018_FIFA_World_Cup_0']",competition,False,auto
+What is AC Milan known for in club football?,"['fixed_AC_Milan_0', 'recursive_AC_Milan_0', 'semantic_AC_Milan_0']",club,False,auto
+What type of tournament is AFC Champions League Elite?,"['fixed_AFC_Champions_League_Elite_0', 'recursive_AFC_Champions_League_Elite_0', 'semantic_AFC_Champions_League_Elite_0']",competition,False,auto
+What was the attendance of the 2025 Club World Cup final?,[],unanswerable,True,manual
+Which player has won the Ballon d'Or award the most times?,[],person,False,gold
+How does Reciprocal Rank Fusion combine sparse and dense retrieval scores?,[],general,True,gold
+"In international football, what country is France national football team associated with?","['fixed_France_national_football_team_0', 'recursive_France_national_football_team_0', 'semantic_France_national_football_team_0']",country-team,False,auto
