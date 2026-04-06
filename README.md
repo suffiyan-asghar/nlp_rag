@@ -1,31 +1,55 @@
-# NLP Assignment 3: Football RAG System
+---
+title: Football RAG QA System
+emoji: ⚽
+colorFrom: green
+colorTo: gray
+sdk: gradio
+sdk_version: 6.10.0
+app_file: app.py
+pinned: false
+---
 
-This repository contains experiments and final notebooks for building and evaluating a football-focused Retrieval-Augmented Generation (RAG) pipeline for NLP Assignment 3.
+# ⚽ Football RAG · Question-Answering System
 
-## Project Overview
+A Retrieval-Augmented Generation (RAG) system for football knowledge, built on Wikipedia articles covering clubs, players, tournaments, and rules.
 
-The project explores the full RAG workflow:
-- Preparing and chunking a sports/football corpus.
-- Testing retrieval strategies (e.g., BM25 vs hybrid retrieval).
-- Running ablation experiments to compare design choices.
-- Evaluating QA and LLM-judge performance with exported metrics.
+## Architecture
 
-## Repository Structure
+| Component | Choice |
+|---|---|
+| Corpus | Wikipedia football articles (clubs, players, tournaments, rules) |
+| Chunking | Recursive (`CHUNK_SIZE=1000`, `OVERLAP=100`) |
+| Vector DB | Pinecone (`sports-rag-v2`, namespace = `recursive`) |
+| Embeddings | `BAAI/bge-small-en-v1.5` (dim=384) with BGE query prefix |
+| Retrieval | Dense (Pinecone) → CrossEncoder rerank → MMR deduplication |
+| Re-ranker | `BAAI/bge-reranker-base` |
+| MMR | λ=0.6, ensures diverse source coverage across top-5 chunks |
+| LLM | Groq `llama-3.1-8b-instant` |
+| Evaluation | LLM-as-Judge (Faithfulness + Relevancy) |
 
-- `Experimental_Notebooks/`: Iterative notebooks for preprocessing, retrieval experiments, and ablation workflows.
-- `Final_Notebooks/`: Final end-to-end notebooks (with and without stored outputs).
-- `Keyword Chunks/`: Precomputed corpus and chunking artifacts in JSON format.
-- `Output files/`: Evaluation tables and experiment results in CSV format.
-- `8-day-work-plan.md`: Project planning timeline.
+## Ablation Study Results
 
-## Main Outputs
+| Chunking | Retrieval | Faithfulness | Relevancy | Avg Response Time |
+|---|---|---|---|---|
+| fixed | semantic\_only | 0.978 | 0.883 | 5.01s |
+| **recursive** | **hybrid+rerank** | **0.978** | **0.860** | **5.55s** |
+| recursive | semantic\_only | 0.978 | 0.883 | 5.32s |
+| fixed | hybrid+rerank | 0.978 | 0.859 | 5.60s |
+| semantic | semantic\_only | 0.956 | 0.876 | 5.10s |
+| semantic | hybrid+rerank | 0.933 | 0.868 | 5.24s |
 
-The `Output files/` folder includes key result artifacts such as:
-- Retrieval metrics
-- Ablation summaries/details
-- QA artifacts and winner comparisons
-- LLM-judge examples and metrics
+## Required Secrets
 
-## Notes
+Set in **HF Space Settings → Variables and secrets**:
 
-Use the notebooks in `Final_Notebooks/` for the most complete and reproducible project flow, and `Experimental_Notebooks/` for intermediate exploration and comparisons.
+- `PINECONE_API_KEY`
+- `GROQ_API_KEY`
+
+## Local Setup
+
+```bash
+pip install -r requirements.txt
+export PINECONE_API_KEY=your_key
+export GROQ_API_KEY=your_key
+python app.py
+```
